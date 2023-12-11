@@ -1,0 +1,72 @@
+/* Signup.css */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1f1f1f;
+  }
+  
+  section div {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #2f2f2f;
+    box-shadow: 0px 0px 15px -10px rgba(200, 200, 200, 0.75);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ddd;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    outline: none;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #58a6ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #499ecb;
+  }
+  
+  p {
+    font-size: 14px;
+    text-align: center;
+    color: #ddd;
+  }
+  
+  NavLink {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  

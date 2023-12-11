@@ -1,0 +1,505 @@
+.event-heading {
+    position: absolute;
+    width: 327px;
+    height: 37px;
+    left: calc(50% - 327px/2 - 4px);
+    top: 386px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #240D57;
+}
+
+.event-host-name {
+    position: absolute;
+    width: 341px;
+    height: 15px;
+    left: calc(50% - 341px/2 + 3px);
+    top: 427px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+}
+
+.event-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    gap: 137px;
+    position: absolute;
+    width: 349.57px;
+    height: 64px;
+    left: calc(50% - 349.57px/2 - 0.72px);
+    top: 466px;
+    border-radius: 10px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 277px;
+    height: 48px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.event-date-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 1px;
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.event-date-time {
+    width: 350px;
+    height: 18px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #240D57;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.date-from {
+    width: 300px;
+    height: 18px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #240D57;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.date-to {
+    width: 300px;
+    height: 16px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #4F4F4F;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.event-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    gap: 137px;
+    position: absolute;
+    width: 349.57px;
+    height: 64px;
+    left: calc(50% - 349.57px/2 - 0.72px);
+    top: 530px;
+    border-radius: 10px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 277px;
+    height: 48px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.event-location-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 1px;
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.event-location-address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+    width: 350px;
+    height: 37px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.street-address {
+    width: 300px;
+    height: 18px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #240D57;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    overflow: hidden;
+}
+
+.address-code {
+    width: 300px;
+    height: 16px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    overflow: hidden;
+    color: #4F4F4F;
+}
+
+.right {
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: calc(50% - 375px/2);
+    top: 0px;
+    background: url(../../assets/Birthday\ cake.png);
+    border-radius: 0px;
+}
+
+@media screen and (min-width: 375px) {
+    .event-heading {
+        position: absolute;
+        width: 333px;
+        height: 37px;
+        left: 20px;
+        top: 717px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 55px;
+        display: flex;
+        align-items: center;
+        color: #240D57;
+    }
+    .event-host-name {
+        position: absolute;
+        width: 155px;
+        height: 15px;
+        left: 20px;
+        top: 771px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #828282;
+    }
+    .event-date {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        gap: 137px;
+        position: absolute;
+        width: 594px;
+        height: 72px;
+        left: calc(50% - 594px/2 - 1px);
+        top: 833px;
+        border-radius: 10px;
+    }
+    .event-date-time {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 277px;
+        height: 56px;
+    }
+    .event-date-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        gap: 1px;
+        width: 56px;
+        height: 56px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .date-from {
+        width: 300px;
+        height: 21px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #240D57;
+        overflow: hidden;
+    }
+    .date-to {
+        width: 300px;
+        height: 21px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #4F4F4F;
+        overflow: hidden;
+    }
+    .event-location {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        gap: 137px;
+        position: absolute;
+        width: 594px;
+        height: 72px;
+        left: calc(50% - 594px/2 - 1px);
+        top: 922px;
+        border-radius: 10px;
+    }
+    .event-location-address {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        margin-left: 5px;
+        width: 277px;
+        height: 56px;
+    }
+    .street-address {
+        width: 300px;
+        height: 21px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #240D57;
+        overflow: hidden;
+    }
+    .address-code {
+        width: 300px;
+        height: 21px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #4F4F4F;
+        overflow: hidden;
+    }
+    .event-location-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        gap: 1px;
+        width: 56px;
+        height: 56px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .right {
+        position: absolute;
+        width: 593px;
+        height: 593px;
+        left: calc(50% - 593px/2 - 0.5px);
+        top: 158px;
+        background: url(../../assets/Birthday\ cake.png);
+        border-radius: 0px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .event-heading {
+        position: absolute;
+        width: 333px;
+        height: 37px;
+        left: 240px;
+        top: 194px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 55px;
+        display: flex;
+        align-items: center;
+        color: #240D57;
+    }
+    .event-host-name {
+        position: absolute;
+        width: 300px;
+        height: 15px;
+        left: 240px;
+        top: 248px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #828282;
+    }
+    .event-date {
+        position: absolute;
+        width: 300px;
+        height: 15px;
+        left: 240px;
+        top: 308px;
+        gap: 10px;
+    }
+    .event-date-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        gap: 1px;
+        width: 56px;
+        height: 56px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .date-from {
+        width: 300px;
+        height: 21px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #240D57;
+        overflow: hidden;
+    }
+    .date-to {
+        width: 300px;
+        height: 21px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #4F4F4F;
+        overflow: hidden;
+    }
+    .event-location {
+        position: absolute;
+        width: 300px;
+        height: 15px;
+        left: 240px;
+        top: 368px;
+        gap: 10px;
+    }
+    .event-location-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        gap: 1px;
+        width: 56px;
+        height: 56px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-top: -4px;
+    }
+    .street-address {
+        width: 300px;
+        height: 21px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #240D57;
+        overflow: hidden;
+    }
+    .address-code {
+        width: 300px;
+        height: 21px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #4F4F4F;
+        overflow: hidden;
+    }
+    .right {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        left: calc(50% - 500px/2 + 266px);
+        top: 184px;
+        border-radius: 0px;
+    }
+}

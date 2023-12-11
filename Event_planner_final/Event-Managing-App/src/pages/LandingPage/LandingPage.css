@@ -1,0 +1,345 @@
+.banner-img {
+  position: absolute;
+  width: 165.63px;
+  height: 292px;
+  left: calc(50% - 165.63px / 2 + 0.32px);
+  top: 290px;
+  filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+  border-radius: 13.2326px;
+  object-fit: contain;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 321px;
+  height: 160px;
+  left: calc(50% - 321px / 2);
+}
+
+.headings {
+  width: 283px;
+  height: 108px;
+}
+
+.banner-heading-1 {
+  position: absolute;
+  width: 283px;
+  height: 108px;
+  left: 19px;
+  top: 0px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #240d57;
+}
+
+.word-snapchat {
+  position: absolute;
+  width: 163px;
+  height: 41px;
+  left: 79px;
+  top: 34px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.banner-heading-2 {
+  position: absolute;
+  width: 283px;
+  height: 108px;
+  left: 19px;
+  top: 78px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #240d57;
+}
+
+.banner-paragraph {
+  width: 321px;
+  height: 36px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  position: absolute;
+  width: 187px;
+  height: 50px;
+  left: calc(50% - 187px / 2);
+  top: 616px;
+  background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+  border-radius: 10px;
+}
+
+.button-text {
+  width: 180px;
+  height: 18px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 375px) {
+  .banner-img {
+    position: absolute;
+    width: 311px;
+    height: 548.27px;
+    left: calc(50% - 311px / 2 + 0.5px);
+    top: 379px;
+    filter: drop-shadow(0px 0px 33.1283px rgba(0, 0, 0, 0.05));
+    border-radius: 24.8462px;
+  }
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 880px;
+    height: 264px;
+    left: calc(50% - 880px / 2);
+    top: 60px;
+  }
+  .banner-heading-1 {
+    position: absolute;
+    width: 573.91px;
+    height: 192px;
+    left: 154.04px;
+    top: 0px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #240d57;
+  }
+  .word-snapchat {
+    position: absolute;
+    width: 880px;
+    height: 74px;
+    left: 0;
+    top: 59px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .banner-heading-2 {
+    position: absolute;
+    width: 880px;
+    height: 74px;
+    left: 0;
+    top: 118px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #240d57;
+  }
+  .banner-paragraph {
+    width: 521px;
+    height: 56px;
+    position: absolute;
+    top: 190px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    position: absolute;
+    width: 320px;
+    height: 55px;
+    left: calc(50% - 320px / 2);
+    top: 980px;
+    background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+    border-radius: 10px;
+  }
+  .button-text {
+    width: 300px;
+    height: 23px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .banner-img {
+    position: absolute;
+    width: 440px;
+    height: 775.69px;
+    left: calc(50% - 440px / 2 - 366px);
+    top: 100px;
+    filter: drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05));
+    border-radius: 35.1522px;
+  }
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 574px;
+    height: 264px;
+    left: calc(50% - 574px / 2 + 309px);
+    top: 156px;
+  }
+  .banner-heading-1 {
+    position: absolute;
+    width: 573.91px;
+    height: 192px;
+    left: 0px;
+    top: 0px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    /* or 100% */
+    text-align: right;
+    color: #240d57;
+  }
+  .word-snapchat {
+    position: absolute;
+    width: 295px;
+    height: 74px;
+    left: 279px;
+    top: 59px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    /* identical to box height */
+    text-align: right;
+    background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .banner-heading-2 {
+    position: absolute;
+    width: 573.91px;
+    height: 192px;
+    left: 0px;
+    top: 118px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    /* or 100% */
+    text-align: right;
+    color: #240d57;
+  }
+
+  .banner-img .banner-paragraph {
+    position: relative;
+  }
+  .banner-paragraph {
+    position: absolute;
+    top: 190px;
+    width: 521px;
+    height: 56px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #4f4f4f;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    position: absolute;
+    width: 320px;
+    height: 55px;
+    left: calc(50% - 320px / 2 + 436px);
+    top: 422px;
+    background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+    border-radius: 10px;
+  }
+  .button-text {
+    width: 300px;
+    height: 23px;
+    font-family: "Helvetica";
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+}
